@@ -1,0 +1,37 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+
+  gap: 0.4rem;
+}
+
+.text {
+  padding: 2rem 0;
+  color: white;
+
+  text-shadow: 2px 2px black;
+}
+
+.text button {
+  all: unset;
+  width: 170px;
+  height: 40px;
+
+  margin-top: 15px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  background: #03484c;
+  border-radius: 10px;
+
+  color: white;
+  cursor: pointer;
+}
+
+.text button:hover {
+    transform: scale(0.9);
+    transition: all 0.5s;
+  } 

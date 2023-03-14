@@ -1,0 +1,22 @@
+:root {
+  --color-primary: #03484c;
+  --color-secondary: #3b8952;
+  --color-text-light: #ffffff;
+  --color-text-dark: #000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  background-color: #bfd6c7;
+}
+
+body {
+  font-family: 'Chango', cursive;
+  font-size: 1.6rem;
+}
